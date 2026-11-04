@@ -1,0 +1,67 @@
+/*
+ * Safari ya Mama design tokens. The ONLY place colours, type and radii are defined.
+ * Tailwind reads these through tailwind.config.ts, so components use semantic classes
+ * (bg-primary, text-ink-2, rounded-lg…) and never raw hex values.
+ * Colours are stored as RGB channels so Tailwind opacity modifiers (bg-primary/10) work.
+ */
+@font-face { font-family: 'Inter'; font-weight: 400; font-display: swap; src: url('../assets/fonts/Inter_400Regular.ttf') format('truetype'); }
+@font-face { font-family: 'Inter'; font-weight: 500; font-display: swap; src: url('../assets/fonts/Inter_500Medium.ttf') format('truetype'); }
+@font-face { font-family: 'Inter'; font-weight: 600; font-display: swap; src: url('../assets/fonts/Inter_600SemiBold.ttf') format('truetype'); }
+@font-face { font-family: 'Inter'; font-weight: 700; font-display: swap; src: url('../assets/fonts/Inter_700Bold.ttf') format('truetype'); }
+@font-face { font-family: 'Manrope'; font-weight: 600; font-display: swap; src: url('../assets/fonts/Manrope_600SemiBold.ttf') format('truetype'); }
+@font-face { font-family: 'Manrope'; font-weight: 700; font-display: swap; src: url('../assets/fonts/Manrope_700Bold.ttf') format('truetype'); }
+@font-face { font-family: 'Manrope'; font-weight: 800; font-display: swap; src: url('../assets/fonts/Manrope_800ExtraBold.ttf') format('truetype'); }
+
+:root {
+  /* brand */
+  --c-primary: 23 77 58;          /* #174D3A forest green: every primary action, active state, progress */
+  --c-secondary: 114 148 122;     /* #72947A sage */
+  --c-primary-soft: 234 241 233;  /* #EAF1E9 light sage */
+  --c-bg: 244 240 230;            /* #F4F0E6 warm ivory */
+  --c-surface: 255 255 255;       /* #FFFFFF cards */
+  --c-surface-2: 247 244 237;     /* #F7F4ED quiet fill inside cards */
+  --c-accent: 217 139 104;        /* #D98B68 terracotta: decoration only, never a button */
+  --c-accent-soft: 248 231 222;   /* #F8E7DE */
+  /* text */
+  --c-ink: 32 44 37;              /* #202C25 primary text */
+  --c-ink-2: 104 118 109;         /* #68766D secondary text (4.6:1 on white) */
+  --c-line: 228 229 220;          /* #E4E5DC border */
+  /* status: always paired with an icon and words */
+  --c-success: 40 115 71;         /* #287347 */
+  --c-success-soft: 232 242 233;
+  --c-warning: 163 107 24;        /* #A36B18 */
+  --c-warning-soft: 255 241 215;
+  --c-danger: 173 56 49;          /* #AD3831 emergency red */
+  --c-danger-soft: 251 233 231;
+
+  --shadow-card: 0 1px 2px rgb(32 44 37 / 0.04), 0 4px 16px rgb(32 44 37 / 0.05);
+  --shadow-raised: 0 4px 12px rgb(32 44 37 / 0.08), 0 16px 40px rgb(32 44 37 / 0.10);
+
+  --sidebar-w: 17rem;
+  --rail-w: 5rem;
+  --topbar-h: 4rem;
+  --bottomnav-h: 4.5rem;
+
+  font-size: 100%;
+}
+
+/* Accessibility preference: larger text scales every rem-based size. */
+:root[data-text='large'] { font-size: 112.5%; }
+
+/* Accessibility preference: reduce motion regardless of the OS setting. */
+:root[data-motion='reduce'] *,
+:root[data-motion='reduce'] *::before,
+:root[data-motion='reduce'] *::after {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+  scroll-behavior: auto !important;
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="120" fill="#22372D"/>
+  <!-- the journey: a winding road from the bottom to a heart -->
+  <path d="M168 452 C 168 380, 340 372, 330 312 C 322 262, 250 266, 256 222" fill="none" stroke="#FBF7F3" stroke-width="44" stroke-linecap="round"/>
+  <path d="M168 452 C 168 380, 340 372, 330 312 C 322 262, 250 266, 256 222" fill="none" stroke="#22372D" stroke-width="8" stroke-linecap="round" stroke-dasharray="18 26"/>
+  <path d="M256 196 s-92-52-92-112 a48 48 0 0 1 92-20 a48 48 0 0 1 92 20 c0 60-92 112-92 112z" fill="#C89720"/>
+</svg>

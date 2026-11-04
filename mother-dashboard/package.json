@@ -1,0 +1,44 @@
+{
+  "name": "safari-ya-mama-mother-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Safari ya Mama mother and caregiver dashboard (React prototype).",
+  "license": "Apache-2.0",
+  "type": "module",
+  "scripts": {
+    "content": "node scripts/sync-content.mjs",
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --port 4173",
+    "typecheck": "tsc -b",
+    "check:tokens": "node scripts/check-tokens.mjs",
+    "check:mamabot": "vite-node scripts/check-mamabot.ts",
+    "qa": "node scripts/visual-qa.mjs"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.10.0",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.18.2",
+    "lucide-react": "^1.68.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.91.0",
+    "react-router-dom": "^6.30.6",
+    "recharts": "^2.15.4",
+    "zod": "^3.25.76",
+    "zustand": "^5.0.16"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.7.0",
+    "autoprefixer": "^10.6.2",
+    "playwright": "^1.64.1",
+    "postcss": "^8.5.32",
+    "tailwindcss": "^3.4.19",
+    "typescript": "^5.9.3",
+    "vite": "^5.4.21",
+    "vite-node": "^2.1.9"
+  }
+}
