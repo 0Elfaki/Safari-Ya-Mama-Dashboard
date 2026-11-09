@@ -1,0 +1,269 @@
+{
+ "rulesVersion": "2026.12",
+ "signs": {
+  "bleeding": {
+   "en": "Bleeding from the vagina",
+   "sw": "Kutokwa na damu ukeni",
+   "level": "red",
+   "stage": "pregnancy"
+  },
+  "headache": {
+   "en": "Severe headache",
+   "sw": "Maumivu makali ya kichwa",
+   "level": "yellow",
+   "stage": "pregnancy"
+  },
+  "vision": {
+   "en": "Blurred vision",
+   "sw": "Kuona ukungu",
+   "level": "yellow",
+   "stage": "pregnancy"
+  },
+  "fits": {
+   "en": "Fits (convulsions)",
+   "sw": "Degedege",
+   "level": "red",
+   "stage": "pregnancy"
+  },
+  "bellypain": {
+   "en": "Severe belly pain",
+   "sw": "Maumivu makali ya tumbo",
+   "level": "red",
+   "stage": "pregnancy"
+  },
+  "swelling": {
+   "en": "Swollen face or hands",
+   "sw": "Uso au mikono kuvimba",
+   "level": "yellow",
+   "stage": "pregnancy"
+  },
+  "breathing": {
+   "en": "Hard to breathe",
+   "sw": "Kupumua kwa shida",
+   "level": "red",
+   "stage": "pregnancy"
+  },
+  "fever": {
+   "en": "Fever / very hot",
+   "sw": "Homa kali",
+   "level": "yellow",
+   "stage": "pregnancy"
+  },
+  "water": {
+   "en": "Water leaking",
+   "sw": "Maji kutoka ukeni",
+   "level": "red",
+   "stage": "pregnancy"
+  },
+  "urine": {
+   "en": "Pain when urinating",
+   "sw": "Maumivu wakati wa kukojoa",
+   "level": "yellow",
+   "stage": "pregnancy"
+  },
+  "vomit": {
+   "en": "Vomiting a lot",
+   "sw": "Kutapika sana",
+   "level": "yellow",
+   "stage": "pregnancy"
+  },
+  "pp_bleed": {
+   "en": "Heavy bleeding (a pad soaked in under an hour)",
+   "sw": "Kutokwa damu nyingi (pedi inalowa chini ya saa moja)",
+   "level": "red",
+   "stage": "postpartum"
+  },
+  "pp_fits": {
+   "en": "Fits (convulsions)",
+   "sw": "Degedege",
+   "level": "red",
+   "stage": "postpartum"
+  },
+  "pp_head": {
+   "en": "Severe headache or blurred vision",
+   "sw": "Kichwa kuuma sana au kuona ukungu",
+   "level": "red",
+   "stage": "postpartum"
+  },
+  "pp_breath": {
+   "en": "Hard to breathe or chest pain",
+   "sw": "Kupumua kwa shida au maumivu ya kifua",
+   "level": "red",
+   "stage": "postpartum"
+  },
+  "pp_leg": {
+   "en": "Painful, swollen leg",
+   "sw": "Mguu kuvimba na kuuma",
+   "level": "red",
+   "stage": "postpartum"
+  },
+  "pp_fever": {
+   "en": "Fever",
+   "sw": "Homa",
+   "level": "yellow",
+   "stage": "postpartum"
+  },
+  "pp_belly": {
+   "en": "Belly pain",
+   "sw": "Maumivu ya tumbo",
+   "level": "yellow",
+   "stage": "postpartum"
+  },
+  "pp_discharge": {
+   "en": "Smelly discharge from the vagina",
+   "sw": "Uchafu wenye harufu mbaya ukeni",
+   "level": "yellow",
+   "stage": "postpartum"
+  },
+  "pp_breast": {
+   "en": "Painful, red or hot breast",
+   "sw": "Titi kuuma, jekundu au la moto",
+   "level": "yellow",
+   "stage": "postpartum"
+  },
+  "pp_mood": {
+   "en": "Very sad or hopeless most days",
+   "sw": "Huzuni kubwa au kukata tamaa siku nyingi",
+   "level": "yellow",
+   "stage": "postpartum"
+  },
+  "pp_harm": {
+   "en": "Thoughts of harming myself or my baby",
+   "sw": "Mawazo ya kujidhuru au kumdhuru mtoto",
+   "level": "red",
+   "stage": "postpartum"
+  },
+  "b_feed": {
+   "en": "Not able to breastfeed or drink",
+   "sw": "Hawezi kunyonya wala kunywa",
+   "level": "red",
+   "stage": "baby"
+  },
+  "b_fits": {
+   "en": "Fits (convulsions)",
+   "sw": "Degedege",
+   "level": "red",
+   "stage": "baby"
+  },
+  "b_breath": {
+   "en": "Fast or difficult breathing",
+   "sw": "Anapumua haraka au kwa shida",
+   "level": "red",
+   "stage": "baby"
+  },
+  "b_chest": {
+   "en": "Chest pulls in when breathing",
+   "sw": "Kifua kinavutika ndani anapovuta pumzi",
+   "level": "red",
+   "stage": "baby"
+  },
+  "b_sleepy": {
+   "en": "Very sleepy, hard to wake",
+   "sw": "Amelegea, ni vigumu kumwamsha",
+   "level": "red",
+   "stage": "baby"
+  },
+  "b_vomit": {
+   "en": "Vomits everything",
+   "sw": "Anatapika kila kitu",
+   "level": "red",
+   "stage": "baby"
+  },
+  "b_diarr": {
+   "en": "Diarrhoea with blood, or sunken eyes",
+   "sw": "Kuharisha damu, au macho yameingia ndani",
+   "level": "red",
+   "stage": "baby"
+  },
+  "b_cold": {
+   "en": "Feels cold to touch",
+   "sw": "Mwili wa baridi",
+   "level": "red",
+   "stage": "baby"
+  },
+  "b_fever": {
+   "en": "Feels hot (fever)",
+   "sw": "Ana homa",
+   "level": "age",
+   "stage": "baby"
+  },
+  "b_yellow": {
+   "en": "Yellow skin or eyes",
+   "sw": "Ngozi au macho ya njano",
+   "level": "yellow",
+   "stage": "baby"
+  },
+  "b_cord": {
+   "en": "Red or smelly cord, or pus",
+   "sw": "Kitovu chekundu, usaha au harufu",
+   "level": "yellow",
+   "stage": "baby"
+  },
+  "b_wet": {
+   "en": "Fewer wet nappies than usual",
+   "sw": "Nepi chache zenye mkojo kuliko kawaida",
+   "level": "yellow",
+   "stage": "baby"
+  },
+  "b_yellow_severe": {
+   "en": "Yellow palms or soles, or yellow on the first day of life",
+   "sw": "Viganja au nyayo za njano, au njano siku ya kwanza ya maisha",
+   "level": "red",
+   "stage": "baby"
+  },
+  "b_belly": {
+   "en": "Swollen, hard belly or green vomit",
+   "sw": "Tumbo limevimba na gumu, au matapishi ya kijani",
+   "level": "red",
+   "stage": "baby"
+  },
+  "b_g_cold": {
+   "en": "Mild cough or runny nose",
+   "sw": "Kikohozi kidogo au mafua",
+   "level": "green",
+   "stage": "baby"
+  },
+  "b_g_spit": {
+   "en": "Small spit-ups after feeds",
+   "sw": "Kucheua maziwa kidogo baada ya kunyonya",
+   "level": "green",
+   "stage": "baby"
+  },
+  "b_g_rash": {
+   "en": "Nappy rash",
+   "sw": "Vipele vya nepi",
+   "level": "green",
+   "stage": "baby"
+  },
+  "b_g_fussy": {
+   "en": "Crying or fussy more than usual",
+   "sw": "Analia au anasumbua kuliko kawaida",
+   "level": "green",
+   "stage": "baby"
+  },
+  "b_g_stool": {
+   "en": "Hard or fewer stools",
+   "sw": "Kinyesi kigumu au kichache",
+   "level": "green",
+   "stage": "baby"
+  }
+ },
+ "vaccines": {
+  "bcg": "BCG",
+  "opv0": "OPV 0",
+  "opv1": "OPV 1",
+  "opv2": "OPV 2",
+  "opv3": "OPV 3",
+  "penta1": "Penta 1",
+  "penta2": "Penta 2",
+  "penta3": "Penta 3",
+  "pcv1": "PCV 1",
+  "pcv2": "PCV 2",
+  "pcv3": "PCV 3",
+  "rota1": "Rota 1",
+  "rota2": "Rota 2",
+  "ipv": "IPV",
+  "vita1": "Vitamin A",
+  "mr1": "Measles-Rubella 1"
+ }
+}

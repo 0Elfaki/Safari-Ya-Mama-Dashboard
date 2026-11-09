@@ -1,0 +1,9 @@
+node_modules
+dist
+dash-dist
+dash-dist.zip
+qa
+*.tsbuildinfo
+.env.local
+.env.*.local
+test-results

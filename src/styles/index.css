@@ -1,0 +1,63 @@
+@import './theme.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    @apply bg-bg font-body text-body text-ink antialiased;
+    overflow-x: hidden;
+  }
+  h1, h2, h3, h4 { @apply font-display font-bold text-ink; }
+  /* Visible focus for keyboard users on every interactive element. */
+  :focus-visible { @apply outline-none ring-2 ring-primary ring-offset-2 ring-offset-bg; }
+  ::selection { @apply bg-primary-soft text-ink; }
+}
+
+@layer components {
+  /* Type roles: the only heading/body styles used in screens. */
+  .t-display { @apply font-display text-display font-extrabold text-ink; }
+  .t-h1 { @apply font-display text-h1 font-extrabold text-ink; }
+  .t-h2 { @apply font-display text-h2 font-bold text-ink; }
+  .t-h3 { @apply font-display text-h3 font-bold text-ink; }
+  .t-body { @apply font-body text-body text-ink; }
+  .t-small { @apply font-body text-small text-ink-2; }
+  .t-caption { @apply font-body text-caption text-ink-2; }
+  .t-label { @apply font-body text-caption font-semibold uppercase tracking-wide text-ink-2; }
+  .t-num { font-variant-numeric: tabular-nums; }
+}
+
+@layer components {
+  /* Leaflet facility markers (SVG): coloured from the tokens, not hard-coded */
+  .map-dot { fill: rgb(var(--c-primary)); fill-opacity: 0.85; stroke: rgb(var(--c-surface)); stroke-width: 2; }
+  .map-dot-off { fill: rgb(var(--c-ink-2)); }
+  .leaflet-container { font-family: Inter, system-ui, sans-serif; }
+  /* Markdown preview (website pages) */
+  .md p, .md ul { margin-top: 0.75rem; }
+  .md ul { list-style: disc; padding-left: 1.25rem; }
+  .md h3 { @apply t-h3 mt-4; }
+  .md a { @apply font-semibold text-primary underline; }
+}
+
+/* Printing a Doctor's Note: the note only, no navigation */
+@media print {
+  body { background: rgb(var(--c-surface)); }
+  #main { max-width: none; padding: 0; }
+}
+
+/* Blog editor writing area (TipTap). Only the blocks the website can show. */
+@layer components {
+  .post-body { @apply text-body text-ink; line-height: 1.7; }
+  .post-body > * + * { @apply mt-4; }
+  .post-body h2 { @apply font-display text-h2 font-extrabold; }
+  .post-body h3 { @apply font-display text-h3 font-bold; }
+  .post-body ul { @apply list-disc pl-6; }
+  .post-body li > p { @apply m-0; }
+  .post-body blockquote { @apply border-l-4 border-primary bg-primary-soft py-2 pl-4 pr-3 italic; }
+  .post-body blockquote[data-source]::after { content: '— ' attr(data-source); @apply mt-1 block text-small not-italic text-ink-2; }
+  .post-body a { @apply text-primary underline; }
+  .post-body p.is-editor-empty:first-child::before,
+  .post-body .is-empty::before { content: attr(data-placeholder); @apply pointer-events-none float-left h-0 text-ink-2; }
+}

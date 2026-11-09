@@ -1,0 +1,340 @@
+{
+ "note": "Picture IDs the app expects (from ../safari-ya-mama/app-picture-prompts.md) and the ones bundled in the app (assets/content/manifest.json). Regenerate when those change.",
+ "bundled": [
+  "BF-EXP-P4",
+  "BF-POS-P1",
+  "BF-SOLIDS-P1",
+  "BF-SOLIDS-P2",
+  "BF-SOLIDS-P3",
+  "BF-SOLIDS-P4",
+  "NB-CORD-P4",
+  "NB-HYG-P1",
+  "NB-HYG-P3",
+  "NB-HYG-P4",
+  "NB-SLEEP-P1",
+  "NB-SLEEP-P3",
+  "NB-SLEEP-P4",
+  "NB-WARM-P1",
+  "SZ-08",
+  "SZ-12",
+  "SZ-16",
+  "SZ-20",
+  "SZ-24",
+  "SZ-28",
+  "SZ-32",
+  "SZ-36",
+  "SZ-40"
+ ],
+ "groups": [
+  {
+   "key": "header",
+   "title": "Header pictures",
+   "shape": "4:3",
+   "ids": [
+    "HERO-WELCOME",
+    "HERO-BABY",
+    "HERO-BIRTHPLAN",
+    "HERO-LEARN"
+   ]
+  },
+  {
+   "key": "pregnancy-months",
+   "title": "Pregnancy month by month",
+   "shape": "4:3",
+   "ids": [
+    "MM-PR-1",
+    "MM-PR-2",
+    "MM-PR-3",
+    "MM-PR-4",
+    "MM-PR-5",
+    "MM-PR-6",
+    "MM-PR-7",
+    "MM-PR-8",
+    "MM-PR-9"
+   ]
+  },
+  {
+   "key": "baby-months",
+   "title": "Baby month by month",
+   "shape": "4:3",
+   "ids": [
+    "MM-BB-1",
+    "MM-BB-2",
+    "MM-BB-3",
+    "MM-BB-4",
+    "MM-BB-5",
+    "MM-BB-6",
+    "MM-BB-7",
+    "MM-BB-8",
+    "MM-BB-9"
+   ]
+  },
+  {
+   "key": "baby-size",
+   "title": "Baby size by week (fruit, transparent)",
+   "shape": "1:1",
+   "ids": [
+    "SZ-08",
+    "SZ-12",
+    "SZ-16",
+    "SZ-20",
+    "SZ-24",
+    "SZ-28",
+    "SZ-32",
+    "SZ-36",
+    "SZ-40"
+   ]
+  },
+  {
+   "key": "onboarding",
+   "title": "Onboarding",
+   "shape": "4:3",
+   "ids": [
+    "ONB-SIGNIN"
+   ]
+  },
+  {
+   "key": "home-tiles",
+   "title": "Home tiles and Mothers' circle",
+   "shape": "16:10",
+   "ids": [
+    "HOME-DOCTOR",
+    "HOME-ASK",
+    "HOME-CIRCLE",
+    "HOME-CARE",
+    "COMM-HERO"
+   ]
+  },
+  {
+   "key": "booking",
+   "title": "Booking choices",
+   "shape": "1:1",
+   "ids": [
+    "BOOK-VIDEO",
+    "BOOK-CLINIC"
+   ]
+  }
+ ],
+ "lessons": [
+  {
+   "prefix": "PR-DANGER",
+   "title": "Danger signs in pregnancy",
+   "lesson": "danger-preg",
+   "ids": [
+    "PR-DANGER-P1",
+    "PR-DANGER-P2",
+    "PR-DANGER-P3",
+    "PR-DANGER-P4"
+   ]
+  },
+  {
+   "prefix": "PR-PLAN",
+   "title": "Your birth plan",
+   "lesson": "birth-plan",
+   "ids": [
+    "PR-PLAN-P1",
+    "PR-PLAN-P2",
+    "PR-PLAN-P3",
+    "PR-PLAN-P4"
+   ]
+  },
+  {
+   "prefix": "PR-KICKS",
+   "title": "Knowing your baby's movements",
+   "lesson": "kicks",
+   "ids": [
+    "PR-KICKS-P1",
+    "PR-KICKS-P2",
+    "PR-KICKS-P3",
+    "PR-KICKS-P4"
+   ]
+  },
+  {
+   "prefix": "PR-LABOUR",
+   "title": "Signs of labour",
+   "lesson": "labour",
+   "ids": [
+    "PR-LABOUR-P1",
+    "PR-LABOUR-P2",
+    "PR-LABOUR-P3",
+    "PR-LABOUR-P4"
+   ]
+  },
+  {
+   "prefix": "PR-SLEEP",
+   "title": "Sleeping well in pregnancy",
+   "lesson": null,
+   "ids": [
+    "PR-SLEEP-P1",
+    "PR-SLEEP-P2",
+    "PR-SLEEP-P3",
+    "PR-SLEEP-P4"
+   ]
+  },
+  {
+   "prefix": "PR-BP",
+   "title": "Blood pressure in pregnancy",
+   "lesson": null,
+   "ids": [
+    "PR-BP-P1",
+    "PR-BP-P2",
+    "PR-BP-P3",
+    "PR-BP-P4"
+   ]
+  },
+  {
+   "prefix": "NU-EAT",
+   "title": "Eating well, the East African way",
+   "lesson": "eat-well",
+   "ids": [
+    "NU-EAT-P1",
+    "NU-EAT-P2",
+    "NU-EAT-P3",
+    "NU-EAT-P4"
+   ]
+  },
+  {
+   "prefix": "NU-IFA",
+   "title": "Iron and folic acid tablets",
+   "lesson": "ifa",
+   "ids": [
+    "NU-IFA-P1",
+    "NU-IFA-P2",
+    "NU-IFA-P3",
+    "NU-IFA-P4"
+   ]
+  },
+  {
+   "prefix": "NU-MOOD",
+   "title": "Feeling low in pregnancy or after birth",
+   "lesson": "mood",
+   "ids": [
+    "NU-MOOD-P1",
+    "NU-MOOD-P2",
+    "NU-MOOD-P3",
+    "NU-MOOD-P4"
+   ]
+  },
+  {
+   "prefix": "NU-SPACE",
+   "title": "Spacing your next pregnancy",
+   "lesson": "spacing",
+   "ids": [
+    "NU-SPACE-P1",
+    "NU-SPACE-P2",
+    "NU-SPACE-P3",
+    "NU-SPACE-P4"
+   ]
+  },
+  {
+   "prefix": "BF-FIRST",
+   "title": "Breastfeeding from the first hour",
+   "lesson": "breastfeed",
+   "ids": [
+    "BF-FIRST-P1",
+    "BF-FIRST-P2",
+    "BF-FIRST-P3",
+    "BF-FIRST-P4"
+   ]
+  },
+  {
+   "prefix": "BF-LATCH",
+   "title": "Good attachment at the breast",
+   "lesson": "attach",
+   "ids": [
+    "BF-LATCH-P1",
+    "BF-LATCH-P2",
+    "BF-LATCH-P3",
+    "BF-LATCH-P4"
+   ]
+  },
+  {
+   "prefix": "BF-POS",
+   "title": "Breastfeeding positions",
+   "lesson": null,
+   "ids": [
+    "BF-POS-P1",
+    "BF-POS-P2",
+    "BF-POS-P3",
+    "BF-POS-P4"
+   ]
+  },
+  {
+   "prefix": "BF-EXP",
+   "title": "Expressing milk by hand",
+   "lesson": null,
+   "ids": [
+    "BF-EXP-P1",
+    "BF-EXP-P2",
+    "BF-EXP-P3",
+    "BF-EXP-P4"
+   ]
+  },
+  {
+   "prefix": "BF-SOLIDS",
+   "title": "Starting foods at 6 months",
+   "lesson": "solids",
+   "ids": [
+    "BF-SOLIDS-P1",
+    "BF-SOLIDS-P2",
+    "BF-SOLIDS-P3",
+    "BF-SOLIDS-P4"
+   ]
+  },
+  {
+   "prefix": "NB-WARM",
+   "title": "Keeping your newborn warm",
+   "lesson": "warm",
+   "ids": [
+    "NB-WARM-P1",
+    "NB-WARM-P2",
+    "NB-WARM-P3",
+    "NB-WARM-P4"
+   ]
+  },
+  {
+   "prefix": "NB-CORD",
+   "title": "Caring for the cord",
+   "lesson": "cord",
+   "ids": [
+    "NB-CORD-P1",
+    "NB-CORD-P2",
+    "NB-CORD-P3",
+    "NB-CORD-P4"
+   ]
+  },
+  {
+   "prefix": "NB-DANGER",
+   "title": "Danger signs in babies",
+   "lesson": "danger-baby",
+   "ids": [
+    "NB-DANGER-P1",
+    "NB-DANGER-P2",
+    "NB-DANGER-P3",
+    "NB-DANGER-P4"
+   ]
+  },
+  {
+   "prefix": "NB-HYG",
+   "title": "Handwashing and safe water",
+   "lesson": "hygiene",
+   "ids": [
+    "NB-HYG-P1",
+    "NB-HYG-P2",
+    "NB-HYG-P3",
+    "NB-HYG-P4"
+   ]
+  },
+  {
+   "prefix": "NB-SLEEP",
+   "title": "Safe sleep for your baby",
+   "lesson": null,
+   "ids": [
+    "NB-SLEEP-P1",
+    "NB-SLEEP-P2",
+    "NB-SLEEP-P3",
+    "NB-SLEEP-P4"
+   ]
+  }
+ ]
+}

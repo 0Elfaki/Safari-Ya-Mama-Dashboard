@@ -1,0 +1,1912 @@
+{
+ "pages": [
+  {
+   "page": "home",
+   "label": "Home",
+   "path": "/",
+   "sections": [
+    {
+     "key": "hero",
+     "label": "Hero",
+     "data": {
+      "eyebrow": "Recognize · Prepare · Seek care",
+      "title": "Maternal care doesn’t stop at *the clinic door.*",
+      "lead": "Safari ya Mama, “the mother’s journey”, is a companion for the weeks between antenatal visits. It helps mothers recognize warning signs, prepare for care and take the right next step.",
+      "primaryLabel": "See how it works",
+      "primaryHref": "/#solution",
+      "secondaryLabel": "Try the MamaBot demo",
+      "secondaryHref": "/innovation#mamabot",
+      "facts": [
+       {
+        "icon": "Languages",
+        "label": "Kiswahili and English"
+       },
+       {
+        "icon": "WifiOff",
+        "label": "Works offline"
+       },
+       {
+        "icon": "ShieldCheck",
+        "label": "WHO-based danger-sign rules"
+       }
+      ],
+      "heroImage": {
+       "src": "/img/ill/hero-mothers-clinic-1254.webp",
+       "small": "/img/ill/hero-mothers-clinic-640.webp",
+       "alt": "Three smiling mothers sit together on a bench in front of a Safari ya Mama sign, holding their babies and looking at their phones"
+      },
+      "phoneScreenshot": {
+       "src": "/img/app-home-pregnant.webp",
+       "alt": "Safari ya Mama app home screen at 28 weeks and 2 days: baby about the size of a pawpaw, today’s check and daily care reminders"
+      },
+      "chatLabel": "MamaBot · guided answer",
+      "chatQuestion": "Baby is moving less today",
+      "chatAnswerStrong": "Contact a health worker today.",
+      "chatAnswer": "Do not wait until tomorrow."
+     }
+    },
+    {
+     "key": "challenge",
+     "label": "The challenge",
+     "data": {
+      "eyebrow": "The challenge",
+      "title": "The critical moment may happen *between visits.*",
+      "lead": "Antenatal care provides scheduled moments for assessment and guidance. New symptoms keep their own schedule: at home, at night, far from a clinic. That is when a mother and her family must recognize the sign, decide how urgent it is and reach the right care.",
+      "image": {
+       "src": "/img/ill/gap-after.webp",
+       "small": "/img/ill/gap-after-760.webp",
+       "alt": "Illustration: at home, a mother holds her newborn wrapped in a kanga and glances at a pile of baby clothes, wondering"
+      },
+      "timelineTitle": "Eight scheduled contacts. Every day in between.",
+      "timelineNote": "WHO antenatal contact schedule · symptom marker is illustrative",
+      "symptomWeek": 32,
+      "symptomTitle": "Week 32, 9 pm: a severe headache and blurred vision.",
+      "symptomText": "The next visit is two weeks away. This cannot wait for it.",
+      "gapTitle": "Three questions, answered alone.",
+      "gapText": "At a visit, a health worker helps with all three. Between visits, they fall on her and her family. That is the support gap.",
+      "answerPrefix": "With Safari ya Mama:",
+      "stages": [
+       {
+        "phase": "Recognition",
+        "icon": "Eye",
+        "image": {
+         "src": "/img/ill/night-question.webp",
+         "small": "/img/ill/night-question-760.webp",
+         "alt": "Illustration: at night under a mosquito net, a pregnant woman sits on her bed and looks at her phone by lamplight"
+        },
+        "question": "Does she know which symptom needs urgent attention?",
+        "challenges": [
+         "Is this headache normal, or a danger sign?",
+         "Is baby moving less than usual?"
+        ],
+        "answer": "A one-minute daily check names the danger signs in her language."
+       },
+       {
+        "phase": "Decision",
+        "icon": "Scale",
+        "image": {
+         "src": "/img/ill/chw-phone.webp",
+         "small": "/img/ill/chw-phone-760.webp",
+         "alt": "Illustration: a community health worker and a pregnant woman look at a phone together on a bench"
+        },
+        "question": "Does she know when and how to seek help?",
+        "challenges": [
+         "Go now, go today, or wait for the next visit?",
+         "Who should she tell first?"
+        ],
+        "answer": "Approved rules return a clear level: go now, today, or keep checking."
+       },
+       {
+        "phase": "Care",
+        "icon": "MapPin",
+        "image": {
+         "src": "/img/ill/clinic.webp",
+         "small": "/img/ill/clinic-760.webp",
+         "alt": "Illustration: a nurse at a health facility desk while mothers wait on a bench"
+        },
+        "question": "Does she know where to go and how to get there?",
+        "challenges": [
+         "Which facility is open at night?",
+         "Transport, money and someone to go with her."
+        ],
+        "answer": "Her care plan names the facility, the transport and a companion. Agreed in advance."
+       }
+      ],
+      "quote": "Recognizing a warning sign is important. *Knowing what to do next matters too.*"
+     }
+    },
+    {
+     "key": "solution",
+     "label": "The solution",
+     "data": {
+      "eyebrow": "The solution",
+      "title": "Introducing *Safari ya Mama.*",
+      "lead": "A companion for the days between antenatal visits. Four connected steps, from the first sign to the right care.",
+      "stepPrefix": "Step",
+      "steps": [
+       {
+        "verb": "Record",
+        "icon": "NotebookPen",
+        "body": "Document symptoms, changes and questions between visits with a one-minute daily check and a diary.",
+        "screenType": "Phone screenshot",
+        "screenshot": {
+         "src": "/img/app-care-baby.webp",
+         "alt": "My Care screen: daily checks for the last 14 days, the last check with no warning signs, and first aid"
+        }
+       },
+       {
+        "verb": "Recognize",
+        "icon": "ShieldAlert",
+        "body": "Access reviewed information about warning signs and their urgency: go now, see a health worker today, or keep checking.",
+        "screenType": "Phone screenshot",
+        "screenshot": {
+         "src": "/img/app-learn.webp",
+         "alt": "Learn screen: lesson progress, first aid, body check and the next lesson, Danger signs in babies"
+        }
+       },
+       {
+        "verb": "Prepare",
+        "icon": "ClipboardList",
+        "body": "Identify the preferred facility, emergency contacts, transport and a companion, before they are needed.",
+        "screenType": "Care plan concept",
+        "screenshot": {
+         "src": "",
+         "alt": ""
+        }
+       },
+       {
+        "verb": "Seek care",
+        "icon": "Building2",
+        "body": "Follow the approved next step and connect with health services. With her consent, her clinic sees amber and red results first.",
+        "screenType": "Laptop screenshot",
+        "screenshot": {
+         "src": "/img/dashboard-alerts.webp",
+         "alt": "Clinic alert queue with sample data"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "key": "guide-story",
+     "label": "Guide story (MamaBot)",
+     "data": {
+      "eyebrow": "MamaBot · the guide between visits",
+      "title": "From the dark and confusion to clear, calm next steps.",
+      "stages": [
+       {
+        "icon": "Moon",
+        "label": "In the dark",
+        "title": "9 pm. A worry, and no one to ask.",
+        "body": "Her next visit is two weeks away. She is not sure what this feeling means, or whether it can wait.",
+        "image": {
+         "src": "/img/ill/night-question.webp",
+         "small": "/img/ill/night-question-760.webp",
+         "alt": "Illustration: at night under a mosquito net, a pregnant woman sits on her bed and looks at her phone by lamplight"
+        }
+       },
+       {
+        "icon": "Sparkles",
+        "label": "Guided",
+        "title": "MamaBot lights the way.",
+        "body": "It checks for danger signs first, then answers from reviewed guidance, in her language.",
+        "image": {
+         "src": "/img/ill/hero-journey.webp",
+         "small": "/img/ill/hero-journey-760.webp",
+         "alt": "Illustration: a pregnant woman walks a red-earth path at dusk beside a small friendly robot carrying a lantern"
+        }
+       },
+       {
+        "icon": "Sun",
+        "label": "In the light",
+        "title": "Clear, calm and ready.",
+        "body": "She knows what the sign means, what to do today, and where her care plan says to go.",
+        "image": {
+         "src": "/img/ill/mothers-sharing.webp",
+         "small": "/img/ill/mothers-sharing-760.webp",
+         "alt": "Illustration: three mothers sit on a bench under a tree in daylight, sharing one phone and smiling"
+        }
+       }
+      ],
+      "worries": [
+       "Is this normal?",
+       "Should I wait for my visit?",
+       "Who do I call at night?",
+       "Is baby moving enough?"
+      ],
+      "chatQuestion": "Baby is moving less today.",
+      "chatAnswerStrong": "See a health worker today.",
+      "chatAnswer": "Do not wait for your next visit.",
+      "chatSourceNote": "Source: reviewed lesson “Danger signs in pregnancy” (WHO)",
+      "statusLabel": "Status: clear and supported",
+      "statusChips": [
+       "Knows the warning sign",
+       "Knows to act today",
+       "Care plan ready"
+      ],
+      "moodTitle": "How she feels",
+      "moodStart": "Confused",
+      "moodMiddle": "Guided",
+      "moodEnd": "Clear and calm",
+      "illustrativeLabel": "Illustrative story"
+     }
+    },
+    {
+     "key": "ai-principles",
+     "label": "AI principles and RAG",
+     "data": {
+      "eyebrow": "Safari ya Mama AI",
+      "title": "Built on principles, *grounded in reviewed guidance.*",
+      "lead": "MamaBot is a guided companion, not a doctor. These principles decide what it says and what it never does.",
+      "ctaLabel": "Try the MamaBot demo",
+      "ctaHref": "/innovation#mamabot",
+      "principles": [
+       {
+        "icon": "HeartHandshake",
+        "title": "Empathy first",
+        "body": "Reproductive health is personal, emotional and often nonlinear."
+       },
+       {
+        "icon": "MessageSquareText",
+        "title": "Plain language",
+        "body": "No one should need a medical degree to understand their own information."
+       },
+       {
+        "icon": "BookCheck",
+        "title": "Evidence-aware guidance",
+        "body": "Answers are grounded in reputable medical sources wherever possible."
+       },
+       {
+        "icon": "ShieldAlert",
+        "title": "Safety over engagement",
+        "body": "Urgent symptoms and high-risk situations are escalated clearly."
+       },
+       {
+        "icon": "SlidersHorizontal",
+        "title": "Personalization with restraint",
+        "body": "Her context improves relevance, without pretending to diagnose."
+       },
+       {
+        "icon": "Lock",
+        "title": "Privacy-conscious design",
+        "body": "Sensitive reproductive health data deserves careful handling."
+       },
+       {
+        "icon": "Stethoscope",
+        "title": "Support, not replacement",
+        "body": "It complements professional medical care and never substitutes for it."
+       }
+      ],
+      "closingNote": "AI explains. Approved rules decide the urgency.",
+      "ragBadge": "RAG · retrieval-augmented generation",
+      "ragTitle": "How MamaBot answers a question",
+      "ragNote": "Urgent messages never reach the model. Every answer is built from the reviewed library and its sources.",
+      "ragSteps": [
+       {
+        "title": "Safety router first",
+        "body": "Every message is checked for danger signs. Urgent ones go straight to emergency guidance, with no model involved.",
+        "status": "Built"
+       },
+       {
+        "title": "Retrieve",
+        "body": "It finds the matching answer, lesson and sources in the reviewed library, in Kiswahili or English.",
+        "status": "Built"
+       },
+       {
+        "title": "Augment and generate",
+        "body": "A language model phrases the retrieved content for her stage and question, without adding new medical claims.",
+        "status": "Built"
+       },
+       {
+        "title": "Answer with sources",
+        "body": "She sees the answer, the lesson it came from and when to seek care.",
+        "status": "Built"
+       }
+      ]
+     }
+    },
+    {
+     "key": "innovation",
+     "label": "Our innovation",
+     "data": {
+      "eyebrow": "Our innovation",
+      "title": "More than a chatbot. *A guided companion* for maternal care.",
+      "lead": "Three connected capabilities help a mother understand what she is feeling, know how urgent it is, and learn what matters for her stage.",
+      "image": {
+       "src": "/img/ill/mamabot.webp",
+       "small": "/img/ill/mamabot-760.webp",
+       "alt": "Illustration: in the evening, a pregnant woman sits on her bed under a mosquito net and types a question on her phone"
+      },
+      "cardTitle": "Questions answered in her language, any time of day.",
+      "cardText": "Urgent messages go straight to emergency guidance, before any AI is involved.",
+      "pillars": [
+       {
+        "icon": "Sparkles",
+        "title": "MamaBot",
+        "body": "Conversational health education that knows her stage, asks the right follow-up questions and links to the right lesson."
+       },
+       {
+        "icon": "Stethoscope",
+        "title": "Symptom guidance",
+        "body": "A guided check where clinician-approved rules, not AI, decide the urgency and the next step."
+       },
+       {
+        "icon": "BookHeart",
+        "title": "Personalized learning",
+        "body": "Lessons recommended for her week of pregnancy, her recovery or her baby’s age."
+       }
+      ],
+      "links": [
+       {
+        "label": "Explore the innovation",
+        "href": "/innovation"
+       },
+       {
+        "label": "Try the symptom check",
+        "href": "/innovation#symptom-guide"
+       }
+      ]
+     }
+    },
+    {
+     "key": "product-showcase",
+     "label": "Product showcase",
+     "data": {
+      "eyebrow": "The platform",
+      "title": "One connected experience for mother, baby and clinic.",
+      "lead": "Select a view to see how each part works.",
+      "conceptNote": "Concept preview built from app content; the final screen may differ.",
+      "tabs": [
+       {
+        "label": "Maternal dashboard",
+        "title": "Everything for today, on one screen",
+        "body": "Her week of pregnancy, her due date, today’s one-minute check and her daily care reminders. The Emergency button is on every screen.",
+        "points": [
+         "Week-by-week progress and due date",
+         "Daily reminders for tablets, movements and blood pressure",
+         "Today’s check, one tap away"
+        ],
+        "screenType": "Phone screenshot",
+        "screenshot": {
+         "src": "/img/app-home-pregnant.webp",
+         "alt": "App home screen in pregnancy: 28 weeks and 2 days, due date, today’s check and daily care reminders"
+        },
+        "screenStatus": "App screen"
+       },
+       {
+        "label": "My Pregnancy",
+        "title": "Eight contacts, one clear path",
+        "body": "The WHO schedule of eight antenatal contacts, with what usually happens at each, so she knows what to expect and what to prepare.",
+        "points": [
+         "What each visit covers",
+         "Done, next and upcoming at a glance",
+         "Birth plan prompts from week 30"
+        ],
+        "screenType": "Pregnancy journey concept",
+        "screenshot": {
+         "src": "",
+         "alt": ""
+        },
+        "screenStatus": "Concept preview"
+       },
+       {
+        "label": "Symptom Diary",
+        "title": "A one-minute daily check",
+        "body": "She ticks how she, or her baby, is doing and any signs. Approved rules return green, amber or red with the next step, and every check is kept.",
+        "points": [
+         "Danger signs from WHO guidance",
+         "The last 14 days at a glance",
+         "First aid and danger-sign pictures close by"
+        ],
+        "screenType": "Phone screenshot",
+        "screenshot": {
+         "src": "/img/app-care-baby.webp",
+         "alt": "My Care screen for a baby: daily checks for the last 14 days, the last check with no warning signs, and first aid"
+        },
+        "screenStatus": "App screen"
+       },
+       {
+        "label": "MamaBot",
+        "title": "Questions answered in plain words",
+        "body": "Health education in Kiswahili and English. Urgent messages are routed to emergency guidance before any AI is involved.",
+        "points": [
+         "Stage-aware answers",
+         "Safety router runs first",
+         "Links to the matching lesson"
+        ],
+        "screenType": "MamaBot concept",
+        "screenshot": {
+         "src": "",
+         "alt": ""
+        },
+        "screenStatus": "Concept preview"
+       },
+       {
+        "label": "My Baby",
+        "title": "Her baby, month by month",
+        "body": "Her baby’s age and this month’s milestone, the next vaccine, today’s check and quick links to clinic visits and tracking.",
+        "points": [
+         "This month’s milestone",
+         "Vaccine reminders",
+         "Clinic visits and tracking in one tap"
+        ],
+        "screenType": "Phone screenshot",
+        "screenshot": {
+         "src": "/img/app-home-baby.webp",
+         "alt": "App home screen for a 3-month-old baby: milestone, next vaccine, today’s check and quick actions"
+        },
+        "screenStatus": "App screen"
+       },
+       {
+        "label": "Emergency Plan",
+        "title": "A plan made before it is needed",
+        "body": "What to do now, step by step, who to call and what to bring. Her facility and transport plan, agreed in advance and one tap away.",
+        "points": [
+         "Clear steps, read aloud",
+         "Call the facility or emergency line in one tap",
+         "What to bring, already listed"
+        ],
+        "screenType": "Phone screenshot",
+        "screenshot": {
+         "src": "/img/app-emergency.webp",
+         "alt": "App emergency help screen with call buttons and the care plan"
+        },
+        "screenStatus": "App screen"
+       },
+       {
+        "label": "Learning Center",
+        "title": "Short lessons with pictures",
+        "body": "Illustrated lessons for every stage that can be read aloud, each with key facts, a quick quiz and its WHO sources.",
+        "points": [
+         "Read aloud, works offline",
+         "Kiswahili and English",
+         "Clinical review status on every lesson"
+        ],
+        "screenType": "Phone screenshot",
+        "screenshot": {
+         "src": "/img/app-lesson.webp",
+         "alt": "App lesson screen, Safe sleep: key facts, an illustration of a baby sleeping on its back, and a Listen button"
+        },
+        "screenStatus": "App screen"
+       },
+       {
+        "label": "Doctor's Note",
+        "title": "Everything she noticed, ready for the health worker",
+        "body": "Her check, her own note and her questions, organised as a short structured summary. Shared with her clinic only if she chooses.",
+        "points": [
+         "Situation, background and what she reported",
+         "Her questions for the visit",
+         "Shared only with her consent"
+        ],
+        "screenType": "Doctor's note concept",
+        "screenshot": {
+         "src": "",
+         "alt": ""
+        },
+        "screenStatus": "Concept preview"
+       },
+       {
+        "label": "Kiswahili",
+        "title": "Every screen in her language",
+        "body": "The whole app works in Kiswahili and English. She can switch at any time, and lessons can be read aloud in either language.",
+        "points": [
+         "Kiswahili and English throughout",
+         "Switch language at any time",
+         "Lessons read aloud"
+        ],
+        "screenType": "Phone screenshot",
+        "screenshot": {
+         "src": "/img/app-home-sw.webp",
+         "alt": "App home screen in Kiswahili: Habari, Amina, wiki 28, siku 2, ukaguzi wa leo and huduma ya kila siku"
+        },
+        "screenStatus": "App screen"
+       }
+      ]
+     }
+    },
+    {
+     "key": "impact",
+     "label": "Impact analytics",
+     "data": {
+      "eyebrow": "Impact analytics",
+      "title": "Measuring engagement and progress, openly.",
+      "lead": "How the platform will report engagement and follow-up: aggregated, consented, and with small counts hidden.",
+      "ctaLabel": "Open the full dashboard",
+      "ctaHref": "/impact",
+      "demoNoticeTitle": "Demonstration data.",
+      "demoNoticeText": "These figures show how the dashboard will work. They are not real platform usage and not maternal health outcomes. Live, aggregated and anonymous figures will replace them once the pilot begins and the data service is connected."
+     }
+    },
+    {
+     "key": "learning",
+     "label": "Learning Center",
+     "data": {
+      "eyebrow": "Learning Center",
+      "title": "Knowledge that moves with *her journey.*",
+      "lead": "The same short, illustrated lessons mothers use in the app, from danger signs to the first feed.",
+      "ctaLabel": "Browse all lessons",
+      "ctaHref": "/learning",
+      "lessonSlugs": [
+       "danger-preg",
+       "birth-plan",
+       "breastfeed"
+      ]
+     }
+    },
+    {
+     "key": "from-the-blog",
+     "label": "From the blog",
+     "data": {
+      "eyebrow": "From the blog",
+      "title": "Stories and ideas from *the team.*",
+      "lead": "What we are designing, why, and what we are learning along the way.",
+      "ctaLabel": "Read the blog",
+      "ctaHref": "/blog",
+      "postCount": 3
+     }
+    },
+    {
+     "key": "trust",
+     "label": "Clinical responsibility",
+     "data": {
+      "eyebrow": "Clinical responsibility",
+      "title": "Built to be trusted with the moments that matter.",
+      "lead": "Safety is designed in from the start: what the AI may do, what only the rules decide, and what always stays with a health worker.",
+      "principles": [
+       {
+        "icon": "BookCheck",
+        "title": "Clinical content is reviewed",
+        "body": "Lessons and danger signs are based on WHO guidance and must be signed off by qualified clinicians before the pilot. Each lesson shows its sources and its review status, which today reads “pending”."
+       },
+       {
+        "icon": "Scale",
+        "title": "Approved protocols govern urgency",
+        "body": "Fixed, explainable rules decide whether to go now, go today or keep checking. The same rules run on the phone, the server and this website."
+       },
+       {
+        "icon": "Bot",
+        "title": "AI supports, never diagnoses",
+        "body": "AI helps with education and structured information collection. It does not diagnose, and it cannot change a warning level."
+       },
+       {
+        "icon": "Lock",
+        "title": "Personal health data is protected",
+        "body": "Everything is off until she turns it on. Row-level security, an audit log, and she can download or delete her data."
+       },
+       {
+        "icon": "Handshake",
+        "title": "Consent before sharing",
+        "body": "Clinical information reaches a facility only when she has chosen to share it. Every staff view of a record is logged."
+       },
+       {
+        "icon": "Stethoscope",
+        "title": "Health workers stay central",
+        "body": "Safari ya Mama complements antenatal care. Assessment, diagnosis and treatment remain with health professionals."
+       }
+      ]
+     }
+    },
+    {
+     "key": "partners",
+     "label": "Partnerships",
+     "data": {
+      "eyebrow": "Partnerships",
+      "title": "Better maternal care is *built together.*",
+      "lead": "We are looking for pilot facilities, an implementing partner, clinical reviewers and funding for an independent evaluation.",
+      "primaryLabel": "Start a conversation",
+      "primaryHref": "/contact",
+      "secondaryLabel": "About the project",
+      "secondaryHref": "/about",
+      "image": {
+       "src": "/img/ill/post-co-design.webp",
+       "small": "/img/ill/post-co-design-760.webp",
+       "alt": "Illustration: women sit around a low table with large paper sheets and sticky notes, drawing and talking"
+      },
+      "cards": [
+       {
+        "icon": "Building2",
+        "title": "Healthcare facilities",
+        "body": "Pilot the app with mothers who attend your ANC clinic."
+       },
+       {
+        "icon": "Hospital",
+        "title": "Hospitals and clinics",
+        "body": "Receive consented alerts, red first, with what she reported."
+       },
+       {
+        "icon": "GraduationCap",
+        "title": "Universities",
+        "body": "Co-design, usability research and independent evaluation."
+       },
+       {
+        "icon": "Microscope",
+        "title": "Researchers",
+        "body": "Study time from danger sign to care, with ethics approval."
+       },
+       {
+        "icon": "HandHeart",
+        "title": "NGOs",
+        "body": "Implementation, community outreach and training."
+       },
+       {
+        "icon": "HeartHandshake",
+        "title": "Maternal health organizations",
+        "body": "Content review, protocols and programme design."
+       },
+       {
+        "icon": "Users",
+        "title": "Community health workers",
+        "body": "Help mothers set up the app and follow up amber results."
+       },
+       {
+        "icon": "Cpu",
+        "title": "Technology partners",
+        "body": "Connectivity, USSD, hosting and national system links."
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "page": "innovation",
+   "label": "Innovation",
+   "path": "/innovation",
+   "sections": [
+    {
+     "key": "header",
+     "label": "Header",
+     "data": {
+      "eyebrow": "Innovation",
+      "title": "Introducing intelligent support between visits.",
+      "lead": "AI where it helps a mother understand. Approved rules where a decision about urgency is made. Health workers at the centre of care.",
+      "image": {
+       "src": "/img/ill/journey-family.webp",
+       "alt": "Illustration: a pregnant woman and a child walk a path at dusk with a small friendly robot lighting the way"
+      },
+      "imagePosition": "45% center",
+      "links": [
+       {
+        "label": "MamaBot",
+        "href": "#mamabot"
+       },
+       {
+        "label": "Symptom guidance",
+        "href": "#symptom-guide"
+       },
+       {
+        "label": "Personalized learning",
+        "href": "#personalized"
+       },
+       {
+        "label": "How AI is kept safe",
+        "href": "#safety-architecture"
+       }
+      ]
+     }
+    },
+    {
+     "key": "mamabot",
+     "label": "MamaBot",
+     "data": {
+      "eyebrow": "MamaBot",
+      "title": "More than a chatbot. A guided companion for maternal care.",
+      "lead": "Ask anything about pregnancy, birth or a newborn. Switch who is asking to see answers change with her stage. Try a danger sign, like “I am bleeding”, to see the safety router.",
+      "features": [
+       "Conversational maternal health education",
+       "Guided symptom collection",
+       "Relevant follow-up questions",
+       "Context-aware educational responses",
+       "Pregnancy-stage-aware information",
+       "Newborn care education",
+       "Escalation messaging that never waits on a model"
+      ],
+      "image": {
+       "src": "/img/ill/mamabot.webp",
+       "small": "/img/ill/mamabot-760.webp",
+       "alt": "Illustration: in the evening, a pregnant woman types a question on her phone by the light of an oil lamp"
+      }
+     }
+    },
+    {
+     "key": "symptom-guide",
+     "label": "Symptom guidance",
+     "data": {
+      "eyebrow": "Symptom guidance",
+      "title": "From a worrying sign to the right next step.",
+      "lead": "A guided check collects what matters, then the app’s clinician-approved rules decide the urgency. Try it with real combinations, such as a headache with blurred vision.",
+      "commitmentsTitle": "Clinical safety commitments",
+      "commitments": [
+       "AI does not independently diagnose.",
+       "Deterministic, clinician-approved rules govern urgency.",
+       "Incomplete assessments never produce reassuring results.",
+       "Urgent symptoms are never told to wait for the next ANC appointment.",
+       "Content comes from reviewed sources and applicable protocols.",
+       "Clinical thresholds are never invented: the website runs the app’s own rules."
+      ]
+     }
+    },
+    {
+     "key": "personalized",
+     "label": "Personalized learning",
+     "data": {
+      "eyebrow": "Personalized learning",
+      "title": "The right lesson at the right week.",
+      "lead": "Recommendations follow her pregnancy stage, her recovery, her baby’s age and the topics she cares about. Danger signs always come first.",
+      "profileTitle": "Her profile",
+      "demoLabel": "Illustrative",
+      "note": "These recommendations are illustrative. They are ranked in the browser from her stage and interests; no personalisation service is connected yet, and nothing is stored."
+     }
+    },
+    {
+     "key": "safety-architecture",
+     "label": "How AI is kept safe",
+     "data": {
+      "eyebrow": "How AI is kept safe",
+      "title": "AI explains. Rules give the advice.",
+      "lead": "Every MamaBot message passes through the same pipeline. Each part is labelled with where it stands today.",
+      "pipeline": [
+       {
+        "icon": "MessageSquare",
+        "title": "Her message",
+        "body": "Typed or tapped, in Kiswahili or English.",
+        "status": "Built",
+        "note": "",
+        "highlight": false
+       },
+       {
+        "icon": "ShieldAlert",
+        "title": "Safety router",
+        "body": "Bleeding, fits, trouble breathing and other urgent signs go straight to emergency guidance and never reach the AI.",
+        "status": "Built",
+        "note": "Runs in this demo",
+        "highlight": true
+       },
+       {
+        "icon": "Sparkles",
+        "title": "Language model",
+        "body": "Explains and educates in plain words, grounded in reviewed lessons.",
+        "status": "Built",
+        "note": "Needs a linked AI key; not connected here",
+        "highlight": false
+       },
+       {
+        "icon": "Filter",
+        "title": "Output filter",
+        "body": "Blocks reassurance, diagnosis and any change to a warning level.",
+        "status": "Built",
+        "note": "",
+        "highlight": false
+       },
+       {
+        "icon": "BookOpenCheck",
+        "title": "Answer and next step",
+        "body": "With a link to the matching lesson, or to the guided check.",
+        "status": "Built",
+        "note": "",
+        "highlight": false
+       }
+      ],
+      "rulesTitle": "Rules decide urgency. Separately.",
+      "rulesText": "The warning level comes from a fixed rules engine based on WHO danger signs for pregnancy, the postnatal period and young infants. The same rules (version {rulesVersion}) run on the phone, the server and this website, with shared test cases to prove they agree. The AI can explain a result; it can never change one.",
+      "liveTitle": "Ready for the live service",
+      "liveText": "The website talks to MamaBot through a service interface. Setting the API gateway address switches the demo library for the live assistant, while the local safety router keeps running first."
+     }
+    }
+   ]
+  },
+  {
+   "page": "how-it-works",
+   "label": "How it works",
+   "path": "/how-it-works",
+   "sections": [
+    {
+     "key": "header",
+     "label": "Header",
+     "data": {
+      "eyebrow": "How it works",
+      "title": "Recognize. Prepare. Seek care.",
+      "lead": "A simple loop for every day between visits, connected to her clinic only when she chooses.",
+      "image": {
+       "src": "/img/ill/chw-visit.webp",
+       "alt": "Illustration: a community health worker and a pregnant woman sit on a bench outside a home, looking at her phone together"
+      }
+     }
+    },
+    {
+     "key": "steps",
+     "label": "Steps",
+     "data": {
+      "stepPrefix": "Step",
+      "steps": [
+       {
+        "icon": "ClipboardCheck",
+        "title": "Set up at the clinic",
+        "body": "During the pilot, a health worker helps each mother install the app, choose her language and decide what to share."
+       },
+       {
+        "icon": "Smartphone",
+        "title": "A one-minute daily check",
+        "body": "How she feels, baby’s movements or feeding, and any signs. Offline, in Kiswahili or English."
+       },
+       {
+        "icon": "Scale",
+        "title": "Rules give a clear level",
+        "body": "Green, amber or red, with the reason and the next step in plain words."
+       },
+       {
+        "icon": "Siren",
+        "title": "Her plan is ready",
+        "body": "Facility, transport, money and a companion, agreed in advance. Emergency help is one tap away."
+       },
+       {
+        "icon": "Building2",
+        "title": "Her clinic sees it, if she shares",
+        "body": "Amber and red results reach her facility’s dashboard, red first, so staff can call her."
+       },
+       {
+        "icon": "BookOpen",
+        "title": "She learns between visits",
+        "body": "Short illustrated lessons and MamaBot answers for her stage, read aloud."
+       }
+      ]
+     }
+    },
+    {
+     "key": "platform",
+     "label": "Explore the platform",
+     "data": {
+      "eyebrow": "Explore the platform",
+      "title": "Every view, working together.",
+      "lead": "Real app and dashboard screens with sample data, plus concept previews where noted.",
+      "conceptNote": "Concept preview built from app content; the final screen may differ.",
+      "tabs": [
+       {
+        "label": "Maternal dashboard",
+        "title": "Everything for today, on one screen",
+        "body": "Her week of pregnancy, her due date, today’s one-minute check and her daily care reminders. The Emergency button is on every screen.",
+        "points": [
+         "Week-by-week progress and due date",
+         "Daily reminders for tablets, movements and blood pressure",
+         "Today’s check, one tap away"
+        ],
+        "screenType": "Phone screenshot",
+        "screenshot": {
+         "src": "/img/app-home-pregnant.webp",
+         "alt": "App home screen in pregnancy: 28 weeks and 2 days, due date, today’s check and daily care reminders"
+        },
+        "screenStatus": "App screen"
+       },
+       {
+        "label": "My Pregnancy",
+        "title": "Eight contacts, one clear path",
+        "body": "The WHO schedule of eight antenatal contacts, with what usually happens at each, so she knows what to expect and what to prepare.",
+        "points": [
+         "What each visit covers",
+         "Done, next and upcoming at a glance",
+         "Birth plan prompts from week 30"
+        ],
+        "screenType": "Pregnancy journey concept",
+        "screenshot": {
+         "src": "",
+         "alt": ""
+        },
+        "screenStatus": "Concept preview"
+       },
+       {
+        "label": "Symptom Diary",
+        "title": "A one-minute daily check",
+        "body": "She ticks how she, or her baby, is doing and any signs. Approved rules return green, amber or red with the next step, and every check is kept.",
+        "points": [
+         "Danger signs from WHO guidance",
+         "The last 14 days at a glance",
+         "First aid and danger-sign pictures close by"
+        ],
+        "screenType": "Phone screenshot",
+        "screenshot": {
+         "src": "/img/app-care-baby.webp",
+         "alt": "My Care screen for a baby: daily checks for the last 14 days, the last check with no warning signs, and first aid"
+        },
+        "screenStatus": "App screen"
+       },
+       {
+        "label": "MamaBot",
+        "title": "Questions answered in plain words",
+        "body": "Health education in Kiswahili and English. Urgent messages are routed to emergency guidance before any AI is involved.",
+        "points": [
+         "Stage-aware answers",
+         "Safety router runs first",
+         "Links to the matching lesson"
+        ],
+        "screenType": "MamaBot concept",
+        "screenshot": {
+         "src": "",
+         "alt": ""
+        },
+        "screenStatus": "Concept preview"
+       },
+       {
+        "label": "My Baby",
+        "title": "Her baby, month by month",
+        "body": "Her baby’s age and this month’s milestone, the next vaccine, today’s check and quick links to clinic visits and tracking.",
+        "points": [
+         "This month’s milestone",
+         "Vaccine reminders",
+         "Clinic visits and tracking in one tap"
+        ],
+        "screenType": "Phone screenshot",
+        "screenshot": {
+         "src": "/img/app-home-baby.webp",
+         "alt": "App home screen for a 3-month-old baby: milestone, next vaccine, today’s check and quick actions"
+        },
+        "screenStatus": "App screen"
+       },
+       {
+        "label": "Emergency Plan",
+        "title": "A plan made before it is needed",
+        "body": "What to do now, step by step, who to call and what to bring. Her facility and transport plan, agreed in advance and one tap away.",
+        "points": [
+         "Clear steps, read aloud",
+         "Call the facility or emergency line in one tap",
+         "What to bring, already listed"
+        ],
+        "screenType": "Phone screenshot",
+        "screenshot": {
+         "src": "/img/app-emergency.webp",
+         "alt": "App emergency help screen with call buttons and the care plan"
+        },
+        "screenStatus": "App screen"
+       },
+       {
+        "label": "Learning Center",
+        "title": "Short lessons with pictures",
+        "body": "Illustrated lessons for every stage that can be read aloud, each with key facts, a quick quiz and its WHO sources.",
+        "points": [
+         "Read aloud, works offline",
+         "Kiswahili and English",
+         "Clinical review status on every lesson"
+        ],
+        "screenType": "Phone screenshot",
+        "screenshot": {
+         "src": "/img/app-lesson.webp",
+         "alt": "App lesson screen, Safe sleep: key facts, an illustration of a baby sleeping on its back, and a Listen button"
+        },
+        "screenStatus": "App screen"
+       },
+       {
+        "label": "Doctor's Note",
+        "title": "Everything she noticed, ready for the health worker",
+        "body": "Her check, her own note and her questions, organised as a short structured summary. Shared with her clinic only if she chooses.",
+        "points": [
+         "Situation, background and what she reported",
+         "Her questions for the visit",
+         "Shared only with her consent"
+        ],
+        "screenType": "Doctor's note concept",
+        "screenshot": {
+         "src": "",
+         "alt": ""
+        },
+        "screenStatus": "Concept preview"
+       },
+       {
+        "label": "Kiswahili",
+        "title": "Every screen in her language",
+        "body": "The whole app works in Kiswahili and English. She can switch at any time, and lessons can be read aloud in either language.",
+        "points": [
+         "Kiswahili and English throughout",
+         "Switch language at any time",
+         "Lessons read aloud"
+        ],
+        "screenType": "Phone screenshot",
+        "screenshot": {
+         "src": "/img/app-home-sw.webp",
+         "alt": "App home screen in Kiswahili: Habari, Amina, wiki 28, siku 2, ukaguzi wa leo and huduma ya kila siku"
+        },
+        "screenStatus": "App screen"
+       }
+      ]
+     }
+    },
+    {
+     "key": "channels",
+     "label": "Channels",
+     "data": {
+      "eyebrow": "Channels",
+      "title": "Reaching mothers with or without a smartphone.",
+      "lead": "Each channel is labelled with where it stands today.",
+      "channels": [
+       {
+        "icon": "Smartphone",
+        "title": "Android app",
+        "body": "Offline-first, with a PIN for shared phones and an Emergency button on every screen.",
+        "status": "Built"
+       },
+       {
+        "icon": "Phone",
+        "title": "USSD daily check",
+        "body": "The same rules on a basic phone. Short code to be assigned in the pilot.",
+        "status": "Pilot"
+       },
+       {
+        "icon": "FileText",
+        "title": "Paper booklet",
+        "body": "For mothers without a phone, co-designed with mothers in the pilot.",
+        "status": "Planned"
+       },
+       {
+        "icon": "Mic",
+        "title": "Voice line in Kiswahili",
+        "body": "Listen to lessons and checks by phone call.",
+        "status": "Planned"
+       }
+      ]
+     }
+    },
+    {
+     "key": "implementation",
+     "label": "Implementation and scale",
+     "data": {
+      "eyebrow": "Implementation and scale",
+      "title": "Designed to work in the health system, not beside it.",
+      "lead": "Each part is labelled with where it stands today. “Built” means implemented and covered by automated tests in the prototype; nothing has yet been used by mothers in a pilot.",
+      "image": {
+       "src": "/img/ill/clinic.webp",
+       "small": "/img/ill/clinic-760.webp",
+       "alt": "Illustration: a nurse at a small health facility desk works on a laptop while mothers wait on a bench"
+      },
+      "items": [
+       {
+        "icon": "Smartphone",
+        "title": "Mobile-first access",
+        "body": "A small Android app first, with USSD and a paper booklet planned for mothers without a smartphone.",
+        "status": "Built"
+       },
+       {
+        "icon": "WifiOff",
+        "title": "Offline-first by design",
+        "body": "Checks, lessons and the emergency plan work without data and sync when a connection returns.",
+        "status": "Built"
+       },
+       {
+        "icon": "Languages",
+        "title": "Language localization",
+        "body": "Kiswahili and English today, awaiting native-speaker review. More languages are planned for later regions.",
+        "status": "Built"
+       },
+       {
+        "icon": "BookCheck",
+        "title": "Local clinical content review",
+        "body": "Rules and lessons are to be signed off by local clinical reviewers against national protocols before enrolment.",
+        "status": "Planned"
+       },
+       {
+        "icon": "Building2",
+        "title": "Integration with ANC services",
+        "body": "Consented alerts reach her facility’s dashboard today. Links to national systems through HL7 FHIR and DHIS2 are planned.",
+        "status": "Built"
+       },
+       {
+        "icon": "Lock",
+        "title": "Privacy and consent",
+        "body": "Everything is off until she turns it on. Row-level security, an audit log, and she can download or delete her data.",
+        "status": "Built"
+       },
+       {
+        "icon": "Stethoscope",
+        "title": "Health worker involvement",
+        "body": "Health workers set mothers up, follow up amber and red results and record what they did. Training is part of the pilot plan.",
+        "status": "Built"
+       },
+       {
+        "icon": "Network",
+        "title": "One shared backend",
+        "body": "The Flutter app, the staff dashboard and this React website use the same secure backend and the same warning rules.",
+        "status": "Built"
+       }
+      ],
+      "architectureTitle": "One backend, three front doors",
+      "clients": [
+       {
+        "icon": "Smartphone",
+        "label": "Flutter app",
+        "audience": "Mothers and helpers"
+       },
+       {
+        "icon": "Monitor",
+        "label": "Staff dashboard",
+        "audience": "Health workers"
+       },
+       {
+        "icon": "Monitor",
+        "label": "React website",
+        "audience": "Public, this site"
+       }
+      ],
+      "backendTitle": "Secure backend and API gateway",
+      "backendItems": [
+       "Authentication and consent",
+       "Warning rules engine (same everywhere)",
+       "Records with row-level security",
+       "Lessons and content review status",
+       "MamaBot gateway with safety router",
+       "Aggregated, anonymous analytics"
+      ],
+      "externalNote": "National health systems (HL7 FHIR, DHIS2) · planned"
+     }
+    },
+    {
+     "key": "trust",
+     "label": "Clinical responsibility",
+     "data": {
+      "eyebrow": "Clinical responsibility",
+      "title": "Built to be trusted with the moments that matter.",
+      "lead": "Safety is designed in from the start: what the AI may do, what only the rules decide, and what always stays with a health worker.",
+      "principles": [
+       {
+        "icon": "BookCheck",
+        "title": "Clinical content is reviewed",
+        "body": "Lessons and danger signs are based on WHO guidance and must be signed off by qualified clinicians before the pilot. Each lesson shows its sources and its review status, which today reads “pending”."
+       },
+       {
+        "icon": "Scale",
+        "title": "Approved protocols govern urgency",
+        "body": "Fixed, explainable rules decide whether to go now, go today or keep checking. The same rules run on the phone, the server and this website."
+       },
+       {
+        "icon": "Bot",
+        "title": "AI supports, never diagnoses",
+        "body": "AI helps with education and structured information collection. It does not diagnose, and it cannot change a warning level."
+       },
+       {
+        "icon": "Lock",
+        "title": "Personal health data is protected",
+        "body": "Everything is off until she turns it on. Row-level security, an audit log, and she can download or delete her data."
+       },
+       {
+        "icon": "Handshake",
+        "title": "Consent before sharing",
+        "body": "Clinical information reaches a facility only when she has chosen to share it. Every staff view of a record is logged."
+       },
+       {
+        "icon": "Stethoscope",
+        "title": "Health workers stay central",
+        "body": "Safari ya Mama complements antenatal care. Assessment, diagnosis and treatment remain with health professionals."
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "page": "impact",
+   "label": "Impact",
+   "path": "/impact",
+   "sections": [
+    {
+     "key": "header",
+     "label": "Header",
+     "data": {
+      "eyebrow": "Impact analytics",
+      "title": "Engagement and progress, measured openly.",
+      "lead": "An interactive view of how the platform will report engagement, learning, care planning and follow-up. Use the period filter, hover the charts, or open each data table.",
+      "image": {
+       "src": "/img/ill/post-measuring.webp",
+       "alt": "Illustration: a bar chart made of stacked river stones beside a padlock made of leaves, suggesting numbers that stay private"
+      }
+     }
+    },
+    {
+     "key": "dashboard",
+     "label": "Dashboard",
+     "data": {
+      "demoNoticeTitle": "Demonstration data.",
+      "demoNoticeText": "These figures show how the dashboard will work. They are not real platform usage and not maternal health outcomes. Live, aggregated and anonymous figures will replace them once the pilot begins and the data service is connected."
+     }
+    },
+    {
+     "key": "targets",
+     "label": "Pilot measures",
+     "data": {
+      "eyebrow": "Pilot measures",
+      "title": "What the 12-month pilot will measure.",
+      "lead": "These are targets set in the project plan, not results. Enrolment starts after ethics clearance, data protection registration and clinical sign-off of the rules.",
+      "measureHeading": "Measure",
+      "targetHeading": "Target",
+      "targets": [
+       {
+        "measure": "Pregnant and postnatal women enrolled, across 3 facilities",
+        "target": "1,000"
+       },
+       {
+        "measure": "Red danger sign to facility contact (median)",
+        "target": "< 1 hour"
+       },
+       {
+        "measure": "Amber and red results followed up within 24 hours",
+        "target": "≥ 80%"
+       },
+       {
+        "measure": "Weekly active mothers (3 or more checks a week)",
+        "target": "≥ 60%"
+       },
+       {
+        "measure": "Mothers who can name 3 or more danger signs",
+        "target": "≥ 75%"
+       },
+       {
+        "measure": "Privacy breaches",
+        "target": "0"
+       }
+      ],
+      "note": "Targets, not outcomes. No impact on health outcomes is claimed."
+     }
+    },
+    {
+     "key": "evaluation",
+     "label": "Evaluation framework",
+     "data": {
+      "eyebrow": "Evaluation framework",
+      "title": "How we measure meaningful progress.",
+      "lead": "Proposed evaluation measures for the pilot. They are not results: baseline and pilot data are not yet available. Targets shown come from the project plan.",
+      "targetPrefix": "Pilot target:",
+      "noTargetText": "Target to be set with the evaluation partner",
+      "indicators": [
+       {
+        "icon": "Eye",
+        "title": "Ability to recognize warning signs",
+        "description": "Mothers name danger signs unprompted, at enrolment and at follow-up.",
+        "target": "≥ 75% name 3 or more"
+       },
+       {
+        "icon": "Route",
+        "title": "Knowledge of care-seeking actions",
+        "description": "Short scenarios: what would you do, and how soon?",
+        "target": ""
+       },
+       {
+        "icon": "HeartHandshake",
+        "title": "Confidence in preparing for care",
+        "description": "Self-rated confidence, and whether a birth and emergency plan is complete.",
+        "target": ""
+       },
+       {
+        "icon": "GraduationCap",
+        "title": "Learning completion and retention",
+        "description": "Lessons finished, quiz answers, and a repeat quiz weeks later.",
+        "target": ""
+       },
+       {
+        "icon": "PhoneCall",
+        "title": "Referral and follow-up completion",
+        "description": "Amber and red results followed up within 24 hours; time from red sign to facility contact.",
+        "target": "≥ 80% within 24 h · median < 1 h"
+       },
+       {
+        "icon": "Accessibility",
+        "title": "Usability and accessibility",
+        "description": "Task-based testing with mothers, including low literacy and shared phones; a standard usability questionnaire.",
+        "target": ""
+       },
+       {
+        "icon": "Activity",
+        "title": "User engagement",
+        "description": "Mothers doing 3 or more checks a week; MamaBot and lesson use.",
+        "target": "≥ 60% weekly active"
+       }
+      ],
+      "closingTitle": "Proposed, not proven.",
+      "closingText": "An independent evaluation is part of the pilot plan. No effect on health outcomes is claimed until it reports."
+     }
+    },
+    {
+     "key": "data-principles",
+     "label": "Data principles",
+     "data": {
+      "eyebrow": "Data principles",
+      "title": "Progress without exposing anyone.",
+      "principles": [
+       {
+        "icon": "EyeOff",
+        "title": "Aggregated and anonymous",
+        "body": "Public figures are totals only. Counts under 5 are hidden so no mother can be identified."
+       },
+       {
+        "icon": "ShieldCheck",
+        "title": "Consented data only",
+        "body": "Only mothers who chose to share are counted. No patient-level data ever reaches a public page."
+       },
+       {
+        "icon": "Radio",
+        "title": "Real-time when connected",
+        "body": "The dashboard is built for live updates through Supabase Realtime, WebSockets or server-sent events. Demo mode does not simulate activity."
+       },
+       {
+        "icon": "Database",
+        "title": "Labelled sources",
+        "body": "Every chart says where its numbers come from, and when they were last updated."
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "page": "learning",
+   "label": "Learning Center",
+   "path": "/learning",
+   "sections": [
+    {
+     "key": "header",
+     "label": "Header",
+     "data": {
+      "eyebrow": "Learning Center",
+      "title": "Knowledge that moves with her journey.",
+      "lead": "Short, illustrated lessons for pregnancy, birth, recovery and the first months with a baby. The same lessons mothers use in the app, with their sources and review status.",
+      "image": {
+       "src": "/img/ill/learn-header.webp",
+       "alt": "Illustration: three mothers sit on a bench under a mango tree; one holds her phone so the others can see"
+      },
+      "searchPlaceholder": "Search lessons, e.g. bleeding, cord, breastfeeding…",
+      "searchNote": "Searches titles, steps and key facts in English and Kiswahili.",
+      "allTopicsLabel": "All topics",
+      "savedLabel": "Saved"
+     }
+    },
+    {
+     "key": "featured",
+     "label": "Featured lesson",
+     "data": {
+      "lessonSlug": "danger-preg",
+      "featuredPrefix": "Featured",
+      "readLabel": "Read lesson",
+      "minutesLabel": "min read"
+     }
+    },
+    {
+     "key": "audio",
+     "label": "Listen and learn",
+     "data": {
+      "title": "Listen and learn",
+      "note": "Read aloud by your browser’s voice. The app uses recorded voices."
+     }
+    },
+    {
+     "key": "all-lessons",
+     "label": "All lessons",
+     "data": {
+      "title": "All lessons",
+      "resultsTitle": "Results",
+      "emptyTitle": "No lessons match.",
+      "emptyText": "Try a different word or topic.",
+      "emptySavedText": "You have not saved any lessons in this view yet.",
+      "clearLabel": "Clear filters",
+      "moreLabel": "Load more"
+     }
+    }
+   ]
+  },
+  {
+   "page": "blog",
+   "label": "Blog",
+   "path": "/blog",
+   "sections": [
+    {
+     "key": "header",
+     "label": "Header",
+     "data": {
+      "eyebrow": "Blog",
+      "title": "Stories, ideas and news shaping maternal care.",
+      "lead": "Notes from the team building Safari ya Mama: what we are designing, why, and what we are learning.",
+      "image": {
+       "src": "",
+       "alt": ""
+      }
+     }
+    },
+    {
+     "key": "posts",
+     "label": "Posts",
+     "data": {
+      "allLabel": "All",
+      "searchPlaceholder": "Search the blog",
+      "featuredLinkLabel": "Read the article",
+      "emptyTitle": "No articles match.",
+      "clearLabel": "Clear filters"
+     }
+    }
+   ]
+  },
+  {
+   "page": "about",
+   "label": "About",
+   "path": "/about",
+   "sections": [
+    {
+     "key": "header",
+     "label": "Header",
+     "data": {
+      "eyebrow": "About Safari ya Mama",
+      "title": "Support for mothers, beyond the ANC visit.",
+      "lead": "Safari ya Mama (“mother’s journey” in Kiswahili) supports mothers between antenatal care visits: to record symptoms, recognize warning signs, prepare to seek care and learn what matters for her and her baby.",
+      "image": {
+       "src": "/img/ill/mothers-sharing.webp",
+       "alt": "Illustration: three mothers on a bench under a tree, sharing one phone and smiling"
+      }
+     }
+    },
+    {
+     "key": "mission",
+     "label": "Mission",
+     "data": {
+      "eyebrow": "Mission",
+      "title": "Recognize. Prepare. Seek care.",
+      "lead": "Mothers and caregivers come first. Health workers, researchers, community health workers and organisations are partners in her care. The product complements antenatal care and never replaces a professional assessment.",
+      "image": {
+       "src": "/img/ill/lesson-danger-baby.webp",
+       "alt": "Illustration: a mother shows her baby to a health worker, who listens and smiles"
+      }
+     }
+    },
+    {
+     "key": "journey",
+     "label": "Project journey",
+     "data": {
+      "eyebrow": "Project journey",
+      "title": "Co-design, test, then grow.",
+      "lead": "Each stage is marked with where it stands today. Completed work is ticked; planned work is dashed.",
+      "stages": [
+       {
+        "title": "Understand women’s experiences",
+        "body": "What mothers notice between visits, what stops them from seeking care, and who they turn to.",
+        "status": "Planned",
+        "done": [],
+        "next": [
+         "Interviews and group discussions with mothers and families during the pilot"
+        ]
+       },
+       {
+        "title": "Co-design with stakeholders",
+        "body": "Mothers, community health workers, midwives and facility managers shape the tools with us.",
+        "status": "Planned",
+        "done": [],
+        "next": [
+         "Co-design the paper booklet with mothers",
+         "Review lesson wording and pictures with community health workers"
+        ]
+       },
+       {
+        "title": "Develop culturally appropriate solutions",
+        "body": "Easy-to-use tools in Kiswahili and English, built for shared phones and patchy data.",
+        "status": "Built",
+        "done": [
+         "Android app, staff dashboard, secure database and website, each with automated tests",
+         "Shared danger-sign rules engine",
+         "SMS reminders and the AI gateway"
+        ],
+        "next": [
+         "Clinical sign-off of the rules and lessons",
+         "Native-speaker review of Kiswahili"
+        ]
+       },
+       {
+        "title": "Test usability and improve",
+        "body": "Readability, usability, and whether women seek care on time.",
+        "status": "Planned",
+        "done": [],
+        "next": [
+         "Usability testing with mothers in the pilot",
+         "Measure time from a red sign to facility contact"
+        ]
+       }
+      ],
+      "phases": [
+       {
+        "when": "Now",
+        "title": "Prototype built",
+        "body": "App, staff dashboard, secure database and this website, each with automated tests.",
+        "status": "Built"
+       },
+       {
+        "when": "Pilot · 12 months",
+        "title": "Co-design and test in Tanzania",
+        "body": "Planned with 1,000 women at 3 facilities, after ethics clearance, data protection registration and clinical sign-off.",
+        "status": "Planned"
+       },
+       {
+        "when": "Scale",
+        "title": "More regions, more languages",
+        "body": "A voice line, the AI assistant for mothers after pilot review, national system links, then more countries and languages.",
+        "status": "Planned"
+       }
+      ],
+      "note": "No research results or clinical validation have been published yet. This page will be updated as the pilot reports."
+     }
+    },
+    {
+     "key": "trust",
+     "label": "Clinical responsibility",
+     "data": {
+      "eyebrow": "Clinical responsibility",
+      "title": "Built to be trusted with the moments that matter.",
+      "lead": "Safety is designed in from the start: what the AI may do, what only the rules decide, and what always stays with a health worker.",
+      "principles": [
+       {
+        "icon": "BookCheck",
+        "title": "Clinical content is reviewed",
+        "body": "Lessons and danger signs are based on WHO guidance and must be signed off by qualified clinicians before the pilot. Each lesson shows its sources and its review status, which today reads “pending”."
+       },
+       {
+        "icon": "Scale",
+        "title": "Approved protocols govern urgency",
+        "body": "Fixed, explainable rules decide whether to go now, go today or keep checking. The same rules run on the phone, the server and this website."
+       },
+       {
+        "icon": "Bot",
+        "title": "AI supports, never diagnoses",
+        "body": "AI helps with education and structured information collection. It does not diagnose, and it cannot change a warning level."
+       },
+       {
+        "icon": "Lock",
+        "title": "Personal health data is protected",
+        "body": "Everything is off until she turns it on. Row-level security, an audit log, and she can download or delete her data."
+       },
+       {
+        "icon": "Handshake",
+        "title": "Consent before sharing",
+        "body": "Clinical information reaches a facility only when she has chosen to share it. Every staff view of a record is logged."
+       },
+       {
+        "icon": "Stethoscope",
+        "title": "Health workers stay central",
+        "body": "Safari ya Mama complements antenatal care. Assessment, diagnosis and treatment remain with health professionals."
+       }
+      ]
+     }
+    },
+    {
+     "key": "contact-cta",
+     "label": "Contact call to action",
+     "data": {
+      "title": "Made by {orgName}",
+      "text": "Write to us about the pilot, partnerships, clinical review or content.",
+      "buttonLabel": "Contact us",
+      "buttonHref": "/contact"
+     }
+    }
+   ]
+  },
+  {
+   "page": "contact",
+   "label": "Contact",
+   "path": "/contact",
+   "sections": [
+    {
+     "key": "header",
+     "label": "Header",
+     "data": {
+      "eyebrow": "Contact",
+      "title": "Let’s work together.",
+      "lead": "Tell us about your organisation and how you would like to collaborate: piloting, research, clinical review, implementation or technology.",
+      "image": {
+       "src": "/img/ill/phone-checklist.webp",
+       "alt": "Illustration: a woman holds a phone, beside a speech bubble and a simple checklist"
+      }
+     }
+    },
+    {
+     "key": "form",
+     "label": "Contact form",
+     "data": {
+      "emailTitle": "Email us directly",
+      "emailNote": "We read every message. Safari ya Mama is made by {orgName}.",
+      "warningTitle": "This form is not for medical help.",
+      "warningText": "If you or someone you care for has a danger sign, go to the nearest health facility now. Please do not send personal health information here.",
+      "nameLabel": "Name",
+      "emailLabel": "Email",
+      "organisationLabel": "Organisation",
+      "topicLabel": "You are a…",
+      "topicPlaceholder": "Choose one",
+      "messageLabel": "How would you like to collaborate?",
+      "consentText": "I have not included anyone’s personal health information in this message.",
+      "sendLabel": "Send message",
+      "sendingLabel": "Sending…",
+      "connectedNote": "Sent securely to the Safari ya Mama team.",
+      "notConnectedNote": "Message service not connected: you will be offered a ready-made email instead.",
+      "sentTitle": "Thank you. Your message was sent.",
+      "sentText": "We will reply to the email address you gave.",
+      "notSentTitle": "Your message has not been sent yet.",
+      "notSentText": "The website’s message service is not connected yet, so nothing was delivered. Your message is ready in an email to {email}. Open it in your email app and press send.",
+      "openEmailLabel": "Open email",
+      "editLabel": "Edit message",
+      "failedText": "Something went wrong and your message was not sent. Please try again, or email {email}.",
+      "rateLimitedText": "Too many messages. Please try again later or email us."
+     }
+    },
+    {
+     "key": "partners",
+     "label": "Partnerships",
+     "data": {
+      "eyebrow": "Partnerships",
+      "title": "Better maternal care is *built together.*",
+      "lead": "We are looking for pilot facilities, an implementing partner, clinical reviewers and funding for an independent evaluation.",
+      "primaryLabel": "Start a conversation",
+      "primaryHref": "/contact",
+      "secondaryLabel": "About the project",
+      "secondaryHref": "/about",
+      "image": {
+       "src": "/img/ill/post-co-design.webp",
+       "small": "/img/ill/post-co-design-760.webp",
+       "alt": "Illustration: women sit around a low table with large paper sheets and sticky notes, drawing and talking"
+      },
+      "cards": [
+       {
+        "icon": "Building2",
+        "title": "Healthcare facilities",
+        "body": "Pilot the app with mothers who attend your ANC clinic."
+       },
+       {
+        "icon": "Hospital",
+        "title": "Hospitals and clinics",
+        "body": "Receive consented alerts, red first, with what she reported."
+       },
+       {
+        "icon": "GraduationCap",
+        "title": "Universities",
+        "body": "Co-design, usability research and independent evaluation."
+       },
+       {
+        "icon": "Microscope",
+        "title": "Researchers",
+        "body": "Study time from danger sign to care, with ethics approval."
+       },
+       {
+        "icon": "HandHeart",
+        "title": "NGOs",
+        "body": "Implementation, community outreach and training."
+       },
+       {
+        "icon": "HeartHandshake",
+        "title": "Maternal health organizations",
+        "body": "Content review, protocols and programme design."
+       },
+       {
+        "icon": "Users",
+        "title": "Community health workers",
+        "body": "Help mothers set up the app and follow up amber results."
+       },
+       {
+        "icon": "Cpu",
+        "title": "Technology partners",
+        "body": "Connectivity, USSD, hosting and national system links."
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "settings": {
+  "site": {
+   "name": "Safari ya Mama",
+   "tagline": "Beyond the ANC Visit",
+   "email": "hello@safariyamama.com",
+   "orgName": "Zatii Technologies",
+   "orgUrl": "https://zatii.com",
+   "nav": [
+    {
+     "label": "Challenge",
+     "href": "/#challenge"
+    },
+    {
+     "label": "Innovation",
+     "href": "/innovation"
+    },
+    {
+     "label": "How it works",
+     "href": "/how-it-works"
+    },
+    {
+     "label": "Impact",
+     "href": "/impact"
+    },
+    {
+     "label": "Learning",
+     "href": "/learning"
+    },
+    {
+     "label": "Blog",
+     "href": "/blog"
+    },
+    {
+     "label": "About",
+     "href": "/about"
+    }
+   ],
+   "ctaLabel": "Partner with us",
+   "ctaHref": "/contact",
+   "homeLabel": "Home",
+   "contactLabel": "Contact",
+   "contactHref": "/contact"
+  },
+  "social": {
+   "whatsappUrl": "",
+   "linkedinUrl": "",
+   "xUrl": "",
+   "facebookUrl": "",
+   "instagramUrl": "",
+   "youtubeUrl": ""
+  },
+  "footer": {
+   "tagline": "Every step of motherhood, *we’re here.*",
+   "note": "Safari ya Mama complements antenatal care. It does not replace an assessment by a health worker. In an emergency, go to the nearest health facility.",
+   "columns": [
+    {
+     "title": "Platform",
+     "links": [
+      {
+       "label": "Innovation",
+       "href": "/innovation"
+      },
+      {
+       "label": "MamaBot",
+       "href": "/innovation#mamabot"
+      },
+      {
+       "label": "Symptom guidance",
+       "href": "/innovation#symptom-guide"
+      },
+      {
+       "label": "How it works",
+       "href": "/how-it-works"
+      },
+      {
+       "label": "Impact dashboard",
+       "href": "/impact"
+      }
+     ]
+    },
+    {
+     "title": "Learn",
+     "links": [
+      {
+       "label": "Learning Center",
+       "href": "/learning"
+      },
+      {
+       "label": "Warning signs",
+       "href": "/learning?category=warning-signs"
+      },
+      {
+       "label": "Newborn care",
+       "href": "/learning?category=newborn-care"
+      },
+      {
+       "label": "Blog",
+       "href": "/blog"
+      }
+     ]
+    },
+    {
+     "title": "Organisation",
+     "links": [
+      {
+       "label": "About us",
+       "href": "/about"
+      },
+      {
+       "label": "Clinical responsibility",
+       "href": "/about#trust"
+      },
+      {
+       "label": "Partner with us",
+       "href": "/contact"
+      },
+      {
+       "label": "Contact",
+       "href": "/contact"
+      }
+     ]
+    }
+   ],
+   "builtByText": "built by",
+   "bottomNote": "Demo figures and concept screens are labelled where they appear. No cookies or trackers."
+  },
+  "banner": {
+   "on": false,
+   "text": "",
+   "link_label": "",
+   "link_href": "",
+   "tone": "info"
+  }
+ },
+ "fieldOptions": {
+  "status": [
+   "Built",
+   "Live",
+   "In progress",
+   "Planned",
+   "Pilot"
+  ],
+  "screenStatus": [
+   "App screen",
+   "Staff dashboard",
+   "Concept preview"
+  ],
+  "screenType": [
+   "Phone screenshot",
+   "Laptop screenshot",
+   "Care plan concept",
+   "Pregnancy journey concept",
+   "MamaBot concept",
+   "Doctor's note concept"
+  ],
+  "tone": [
+   "info",
+   "success",
+   "warning",
+   "alert"
+  ],
+  "icon": [
+   "Accessibility",
+   "Activity",
+   "Baby",
+   "Bell",
+   "BookCheck",
+   "BookHeart",
+   "BookOpen",
+   "BookOpenCheck",
+   "Bot",
+   "Building2",
+   "Bus",
+   "Calendar",
+   "ClipboardCheck",
+   "ClipboardList",
+   "Cpu",
+   "Database",
+   "Eye",
+   "EyeOff",
+   "FileText",
+   "Filter",
+   "Globe",
+   "GraduationCap",
+   "HandHeart",
+   "Handshake",
+   "Heart",
+   "HeartHandshake",
+   "Hospital",
+   "Languages",
+   "LayoutDashboard",
+   "Library",
+   "Lightbulb",
+   "Lock",
+   "Mail",
+   "MapPin",
+   "MessageSquare",
+   "MessageSquareText",
+   "Mic",
+   "Microscope",
+   "Monitor",
+   "Moon",
+   "Network",
+   "NotebookPen",
+   "Phone",
+   "PhoneCall",
+   "Radio",
+   "Route",
+   "Scale",
+   "Server",
+   "ShieldAlert",
+   "ShieldCheck",
+   "Siren",
+   "SlidersHorizontal",
+   "Smartphone",
+   "Sparkles",
+   "Stethoscope",
+   "Sun",
+   "Target",
+   "Users",
+   "WifiOff"
+  ]
+ }
+}

@@ -1,5 +1,0 @@
-node_modules/
-dist/
-qa/
-*.tsbuildinfo
-qa-run.log
