@@ -7,3 +7,5 @@ qa
 .env.local
 .env.*.local
 test-results
+dist-webdash
+dist-webdash.zip

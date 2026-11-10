@@ -36,6 +36,9 @@ export const signInFacilities = () => rpc<{ id: string; name: string }[]>('sign_
 export const staffSession = (facility: string) =>
   rpc<{ ok: boolean; message?: string; role?: Role; name?: string; facility?: { id: string; name: string; level: string; phone: string | null }; facilities?: { id: string; name: string }[] }>('staff_session', { p_facility: facility });
 export const adminSession = () => rpc<{ role: Role; mfa: boolean; name: string }>('admin_session');
+/** Two-step sign-in required (security_settings.require_mfa); false = on hold, password only. */
+export const mfaRequired = () => rpc<boolean>('mfa_required');
+export const setRequireMfa = (on: boolean) => rpc('set_require_mfa', { p_on: on });
 export const staffOf = (facility: string) => rpc<boolean>('staff_of', { p_facility: facility });
 export async function myProfile() {
   const { data: u } = await supabase.auth.getUser();

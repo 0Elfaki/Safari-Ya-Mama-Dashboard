@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/Button';
 import { ErrorState, LoadingState } from '@/components/ui/StateViews';
 import { FormField, Select, TextInput } from '@/components/ui/FormField';
 import { Modal } from '@/components/ui/Modal';
-import { signInFacilities } from '@/lib/api';
+import { mfaRequired, signInFacilities } from '@/lib/api';
 import { useSession } from '@/lib/session';
 import { configError } from '@/lib/supabase';
 import { msg, useT, useTn } from '@/lib/i18n';
@@ -64,6 +64,8 @@ function ForgotPassword({ open, onClose, initial }: { open: boolean; onClose: ()
 
 export function SignInPage() {
   const s = useSession();
+  const [mfaOn, setMfaOn] = useState<boolean | null>(null);
+  useEffect(() => { mfaRequired().then(setMfaOn).catch(() => setMfaOn(null)); }, []);
   const [tab, setTab] = useState<'staff' | 'admin'>('staff');
   const [facs, setFacs] = useState<{ id: string; name: string }[] | null>(null);
   const [facErr, setFacErr] = useState<string | null>(null);
@@ -124,7 +126,7 @@ export function SignInPage() {
         <Button type="submit" icon={LogIn} loading={busy} block disabled={!email || !password || (tab === 'staff' && !facility)}>
           {tab === 'staff' ? t('Sign in at this facility') : t('Continue')}
         </Button>
-        <p className="t-caption">{tab === 'admin' ? t('Administration accounts confirm every sign-in with a 6-digit code from an authenticator app.') : t('Super admins and Admins: choose any facility; you confirm with your 6-digit code next.')}</p>
+        <p className="t-caption">{mfaOn === false ? t('Sign in with your email and password.') : tab === 'admin' ? t('Administration accounts confirm every sign-in with a 6-digit code from an authenticator app.') : t('Super admins and Admins: choose any facility; you confirm with your 6-digit code next.')}</p>
         <button type="button" onClick={() => setForgot(true)} className="inline-flex min-h-11 items-center justify-self-start text-small font-semibold text-primary underline">{t('Forgot password?')}</button>
       </form>
       <ForgotPassword open={forgot} onClose={() => setForgot(false)} initial={email} />

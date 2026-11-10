@@ -9,11 +9,11 @@ data model and the server; this dashboard's SQL lives there, in `supabase/migrat
 cp .env.example .env.local      # VITE_SUPABASE_URL + VITE_SUPABASE_ANON_KEY (anon key only)
 npm install
 npm run dev                     # http://localhost:5180
-npm run build                   # type-check + production build → dash-dist/
+npm run build                   # type-check + production build → dist-webdash/
 npm test                        # unit tests: QR parsing, Doctor's Note decryption (vector made by the app)
 npm run check:tokens            # design-token guard: no raw colours or off-scale spacing
 npm run sync:site               # copy the website's built-in sections (../Safari-ya-mam-website/src/content/site-defaults.json)
-npm run preview                 # serve dash-dist/ on http://localhost:4174, then:
+npm run preview                 # serve dist-webdash/ on http://localhost:4174, then:
 npm run qa                      # Playwright: interaction tests + every page × role × 1440/390 px → qa/
 ```
 

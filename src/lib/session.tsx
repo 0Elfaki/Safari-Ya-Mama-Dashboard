@@ -11,7 +11,7 @@
 //   30 minutes without activity: signed out. 5 wrong passwords in 15 minutes: this browser waits 15 minutes
 //   (Supabase's own rate limits apply on top).
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
-import { adminSession, facilities as listFacilities, myProfile, staffOf, staffSession } from './api';
+import { adminSession, facilities as listFacilities, myProfile, staffOf, staffSession, mfaRequired } from './api';
 import { supabase } from './supabase';
 import type { FacilityRef, Role } from './types';
 import { tr } from './i18n';
@@ -121,6 +121,8 @@ export function SessionProvider({ children }: { children: ReactNode }) {
   const mfaNext = useCallback(async () => {
     const { data } = await supabase.auth.mfa.getAuthenticatorAssuranceLevel();
     if (data?.currentLevel === 'aal2') return finishMfa();
+    // two-step sign-in on hold (super admin switch): email and password are enough
+    if (!(await mfaRequired().catch(() => true))) return finishMfa();
     const f = await supabase.auth.mfa.listFactors();
     patch({ stage: f.data?.totp?.some((x) => x.status === 'verified') ? 'mfa_verify' : 'mfa_enroll' });
   }, [finishMfa, patch]);

@@ -75,6 +75,7 @@ async function mock(page, role, opts = {}) {
         return { ok: true, role, name: me.name, facility: { id: body.p_facility, name: fac(body.p_facility).name, level: 'health_centre', phone: null }, facilities: [{ id: F1, name: fac(F1).name }, { id: F2, name: fac(F2).name }] };
       }
       case 'admin_session': return { role, mfa: true, name: me.name };
+      case 'mfa_required': return !opts.mfaOff;
       case 'admin_facilities': return W.facilities;
       case 'risk_queue': return W.mothers.slice(0, 5).map((m, i) => ({ mother_id: m.id, display_name: m.display_name, phone: m.phone, stage: i === 2 || i === 4 ? 'baby' : 'pregnant', weeks: i === 2 || i === 4 ? null : 20 + i * 5, baby_days: i === 2 ? 40 : i === 4 ? 12 : null,
         score: [72, 55, 46, 18, 12][i], band: ['high', 'high', 'medium', 'low', 'low'][i], reasons: [['Red check-in in the last 7 days (+40)', 'Pre-eclampsia in a past pregnancy (+12)'], ['BP 142/92, at or above 140/90 (+20)', 'Systolic up 24 mmHg in about 3 weeks (+15)'], ['Red check-in in the last 7 days (+40)', 'Baby under 28 days old (+5)'], ['No check-in for 7+ days (+10)'], ['No check-in for 3+ days (+5)']][i] }));
@@ -416,6 +417,19 @@ const settle = async (page) => { await page.waitForLoadState('networkidle').catc
   await page.goto(BASE + '/app/lessons'); await settle(page);
   await page.getByRole('button', { name: /Breastfeeding in the first days/ }).click(); await settle(page);
   ok('each lesson step has its own picture upload', (await page.getByRole('button', { name: 'Upload' }).count()) >= 2 && (await page.getByText(/named BF-FIRST-P1/).count()) === 1);
+  await ctx.close();
+}
+
+{
+  const ctx = await ctxFor(1440); const page = await ctx.newPage(); watch(page, 'mfa-hold');
+  await mock(page, 'super_admin', { signedOut: true, aal: 'aal1', mfaOff: true });
+  await page.goto(BASE + '/'); await settle(page);
+  await page.getByRole('tab', { name: /Administration/ }).click();
+  await page.getByLabel('Email').fill('super@example.invalid'); await page.getByLabel('Password').fill('correct horse');
+  await page.getByRole('button', { name: 'Continue' }).click(); await settle(page);
+  ok('two-step sign-in on hold: email and password open the dashboard', (await page.getByRole('heading', { level: 1, name: 'Programme KPIs' }).count()) === 1 && (await page.getByLabel('6-digit code').count()) === 0);
+  await page.goto(BASE + '/system'); await settle(page);
+  ok('System health shows the two-step switch to the super admin', (await page.getByRole('switch', { name: /Require the 6-digit code/ }).count()) === 1);
   await ctx.close();
 }
 

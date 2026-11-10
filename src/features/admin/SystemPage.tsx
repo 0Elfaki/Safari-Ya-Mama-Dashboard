@@ -2,6 +2,7 @@ import clsx from 'clsx';
 import { AlertTriangle, BellRing, Bot, CheckCircle2, Clock, Cloud, Database, RefreshCw, ServerCog, Smartphone, XCircle } from 'lucide-react';
 import { lazy, Suspense } from 'react';
 import { PageHeader } from '@/components/layout/Shell';
+import { SecuritySwitch } from './SecuritySwitch';
 import { Kpi, Table, Td, Th } from '@/components/ui/Bits';
 import { Button } from '@/components/ui/Button';
 import { BaseCard, CardHeader } from '@/components/ui/Card';
@@ -33,6 +34,7 @@ export default function SystemPage() {
     <>
       <PageHeader title={t('System health')} subtitle={t('Edge Functions, scheduled jobs, the push notification queue, AI usage and data freshness.')}
         actions={<Button variant="outline" icon={RefreshCw} onClick={() => reload()} loading={loading}>{t('Refresh')}</Button>} />
+      <SecuritySwitch />
       {loading && !data ? <LoadingState text={t('Checking the system…')} /> : error || !data ? <ErrorState text={error ?? ''} onRetry={() => reload()} /> : (() => {
         const { h, fns } = data;
         const queueBad = h.queue.failed_24h > 0 || (h.queue.oldest_due && Date.now() - new Date(h.queue.oldest_due).getTime() > 30 * 6e4);

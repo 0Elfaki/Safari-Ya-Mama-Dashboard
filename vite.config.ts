@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   resolve: { alias: { '@': fileURLToPath(new URL('./src', import.meta.url)) } },
   build: {
-    outDir: 'dash-dist',
+    outDir: 'dist-webdash',
     // recharts is ~550 kB minified on its own; it gets its own cached chunk, loaded only by chart pages.
     chunkSizeWarningLimit: 600,
     rollupOptions: { output: { manualChunks: { charts: ['recharts'], supabase: ['@supabase/supabase-js'], map: ['leaflet'] } } },
